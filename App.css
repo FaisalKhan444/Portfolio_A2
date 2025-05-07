@@ -1,0 +1,9 @@
+/* Adjust layout when sidebar is collapsed */
+.main-content {
+  transition: margin-left 0.3s ease;
+  padding: 20px;
+}
+
+.main-content.collapsed {
+  margin-left: 80px; /* Adjust margin when sidebar is collapsed */
+}
